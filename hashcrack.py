@@ -69,10 +69,6 @@ def funchash(arg):
                 import hashlib
                 hash = hashlib.sha512(arg[j].encode())
                 return hash.hexdigest()
-            case "-md4":
-                import hashlib
-                hash = hashlib.new('md4', arg[j].encode('utf-8'))
-                return hash.hexdigest()
             case "-md5":
                 import hashlib
                 hash = hashlib.md5(arg[j].encode())
