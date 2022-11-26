@@ -1,3 +1,5 @@
+#!/bin/bash
+
 import os, sys
 
 class bcolors:
@@ -28,6 +30,8 @@ def help():
 
     Specify a list for crackit:
         -w
+
+    Usage: ./hashcrack.py crackit -sha256 <hash> -w file.txt
     """)
 
 def banner():
