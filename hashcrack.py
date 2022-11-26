@@ -230,8 +230,8 @@ def hashcrack(arg):
 
 def main():
     banner()
-    import hashlib
-    print(hashlib.algorithms_available)
+    #import hashlib
+    #print(hashlib.algorithms_available)
     arg = sys.argv
     if "crackit" in arg:
         hashcrack(arg)
